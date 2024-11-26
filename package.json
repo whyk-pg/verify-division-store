@@ -1,13 +1,16 @@
 {
   "scripts": {
     "check": "biome check --unsafe .",
-    "check:write": "pnpm check --write"
+    "format": "pnpm check --write"
   },
   "volta": {
-    "node": "20.16.0"
+    "node": "22.11.0"
   },
-  "packageManager": "pnpm@9.4.0",
+  "packageManager": "pnpm@9.14.2",
   "devDependencies": {
-    "@biomejs/biome": "^1.8.3"
+    "@biomejs/biome": "^1.8.3",
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.2",
+    "vitest": "^2.1.6"
   }
 }
